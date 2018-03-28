@@ -48,9 +48,6 @@ class EmojiFlowLayout: UICollectionViewFlowLayout {
     }
     
     
-
-    
-    
     override func prepare() {
         super.prepare()
         guard let sections = collectionView?.numberOfSections else { return }

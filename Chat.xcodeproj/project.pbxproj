@@ -35,6 +35,7 @@
 		9EA5B0E220628F7500EF450F /* ChatEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5B0E120628F7500EF450F /* ChatEmoji.swift */; };
 		9EA5B0E52062991100EF450F /* ChatEmojiVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5B0E42062991100EF450F /* ChatEmojiVM.swift */; };
 		9EF0542F206A736E00EC5403 /* EmojiFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0542E206A736E00EC5403 /* EmojiFlowLayout.swift */; };
+		9EF05431206B1CF400EC5403 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF05430206B1CF400EC5403 /* TestViewController.swift */; };
 		B1991C035813F8F00621AE37 /* Pods_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E30F2B73B689E57E3C07AE /* Pods_Chat.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,7 @@
 		9EA5B0E120628F7500EF450F /* ChatEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatEmoji.swift; sourceTree = "<group>"; };
 		9EA5B0E42062991100EF450F /* ChatEmojiVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatEmojiVM.swift; sourceTree = "<group>"; };
 		9EF0542E206A736E00EC5403 /* EmojiFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiFlowLayout.swift; sourceTree = "<group>"; };
+		9EF05430206B1CF400EC5403 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				9E7CB7D5205BFE05002BF3F4 /* ChatViewController.swift */,
+				9EF05430206B1CF400EC5403 /* TestViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 				9E52742720629D5F0031C426 /* ObjectMapper-Extension.swift in Sources */,
 				9EA5B0D820613C8E00EF450F /* ChatEmojiKeyboard.swift in Sources */,
 				9E6CD939205EA945001C511E /* ChatExtension.swift in Sources */,
+				9EF05431206B1CF400EC5403 /* TestViewController.swift in Sources */,
 				9EA5B0E220628F7500EF450F /* ChatEmoji.swift in Sources */,
 				9E5274292062A95F0031C426 /* EmojiNode.swift in Sources */,
 				9EF0542F206A736E00EC5403 /* EmojiFlowLayout.swift in Sources */,

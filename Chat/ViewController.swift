@@ -16,10 +16,15 @@ class ViewController: UIViewController {
         
     }
 
+    
+    @IBAction func collectionNodeAction(_ sender: UIButton) {
+        navigationController?.pushViewController(ChatViewController.init(title :"hello"), animated: true)
+    }
+    @IBAction func collectionViewAction(_ sender: UIButton) {
+        navigationController?.pushViewController(TestViewController(), animated: true)
+    }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
-        
-        present(ChatViewController.init(title :"hello"), animated: true, completion: nil)
         
     }
 }

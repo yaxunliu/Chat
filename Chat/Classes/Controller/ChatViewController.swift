@@ -79,7 +79,7 @@ extension ChatViewController {
     
     fileprivate func observerChatBarEvent () {
         chatBar.chatBarEvent.subscribe { (event) in
-            guard let element = event.element else { return }
+            guard event.element != nil else { return }
             self.node.layoutSpecBlock = { [weak self] node ,constrainedSize in
                 let verticalSpec = ASStackLayoutSpec()
                 verticalSpec.direction = .vertical
@@ -93,9 +93,6 @@ extension ChatViewController {
             UIView.animate(withDuration: 0.2, animations: {
                 self.node.layoutIfNeeded()
             })
-            
-            
-            
             }.disposed(by: bag)
     }
     
